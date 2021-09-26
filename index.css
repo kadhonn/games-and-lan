@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'LeoRounded-Light';
+    src: url('fonts/LeoRounded-Light.ttf') format('truetype');
+}
+
+iframe {
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'LeoRounded-Light';
+    background-color: #242424;
+    color: #8c8c8c;
+    font-size: larger;
+}
+
+header {
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    background: url("assets/fb_banner_halloween.png") no-repeat fixed;
+    background-size: cover;
+}
+
+section {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+section>p {
+    text-align: justify;
+}
+
+section div {
+    padding: 8px;
+}
+
+.general {
+    flex: 2
+}
+
+.hard-facts {
+    flex: 1
+}
+
+hr {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background: linear-gradient( to right, rgba(249, 105, 14, 1) 0%, rgba(102, 51, 153, 1) 100%);
+    border: 0;
+    height: 1px;
+}
+
+.logo-with-icon {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+h1 img {
+    padding-right: 8px;
+}
+
+section.subsection {
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.subsection h1 {
+    text-align: center;
+}
+
+section.subsection h3 {
+    text-align: center;
+}
+
+.split-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.split-content div {
+    flex: 1
+}
+
+footer {
+    max-width: 70vw;
+    margin: auto;
+    color: #8a8a8a;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.footer-nav a {
+    padding: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(51, 153, 122);
+}
+
+.video {
+    padding: 16px;
+}
+
+@media (max-width: 700px) {
+    .split-content {
+        flex-direction: column;
+    }
+}
