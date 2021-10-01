@@ -71,7 +71,7 @@ hr {
     margin-right: 5vw;
     margin-top: 16px;
     margin-bottom: 16px;
-    background: linear-gradient(to right, rgba(249, 105, 14, 1) 0%, rgba(102, 51, 153, 1) 100%);
+    background: linear-gradient(to right, rgba(249, 105, 14, 1) 0%, #89a049);
     border: 0;
     height: 1px;
 }
@@ -140,8 +140,28 @@ a {
     width: 50%;
 }
 
-@media (max-width: 700px) {
+.logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 12em;
+}
+
+.logoBig {
+    width: 8em;
+}
+
+@media (max-width: 1000px) {
     .split-content {
         flex-direction: column;
+    }
+    .logos {
+        flex-direction: column;
+    }
+    .logo {
+        margin: 16px;
     }
 }
