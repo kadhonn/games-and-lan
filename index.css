@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'LeoRounded-Light';
-    src: url('/fonts/LeoRounded-Light.ttf') format('truetype');
+    src: url('fonts/LeoRounded-Light.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Bariol-Regular';
-    src: url('/fonts/Bariol-Regular.ttf') format('truetype');
+    src: url('fonts/Bariol-Regular.ttf') format('truetype');
 }
 
 iframe {
@@ -164,4 +164,14 @@ a {
     .logo {
         margin: 16px;
     }
+}
+
+section:nth-child(3n+0) .colored {
+    color:#e6204c;
+}
+section:nth-child(3n+1) .colored {
+    color:#0098cf;
+}
+section:nth-child(3n+2) .colored {
+    color:#89a049;
 }
