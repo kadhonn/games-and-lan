@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'LeoRounded-Light';
-    src: url('/fonts/LeoRounded-Light.ttf') format('truetype');
+    src: url('fonts/LeoRounded-Light.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Bariol-Regular';
-    src: url('/fonts/Bariol-Regular.ttf') format('truetype');
+    src: url('fonts/Bariol-Regular.ttf') format('truetype');
 }
 
 iframe {
