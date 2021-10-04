@@ -165,3 +165,13 @@ a {
         margin: 16px;
     }
 }
+
+section:nth-child(3n+0) .colored {
+    color:#e6204c;
+}
+section:nth-child(3n+1) .colored {
+    color:#0098cf;
+}
+section:nth-child(3n+2) .colored {
+    color:#89a049;
+}
