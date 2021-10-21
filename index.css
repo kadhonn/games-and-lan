@@ -29,6 +29,10 @@ body {
     font-size: 20px;
 }
 
+.smallerfont {
+    font-size: 15px;
+}
+
 h1, h2, strong {
     font-family: 'LeoRounded-Light';
     color: #686868;
@@ -246,7 +250,7 @@ a {
 }
 .accordion button[aria-expanded='true'] + .accordion-content {
     opacity: 1;
-    max-height: 15em;
+    max-height: 35em;
     transition: all 200ms linear;
     will-change: opacity, max-height;
 }
