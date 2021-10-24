@@ -160,7 +160,10 @@ a {
 
 * {
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
+
 *::before,
 *::after {
     box-sizing: border-box;
@@ -171,6 +174,7 @@ a {
     padding: 2rem;
     width: 48rem;
 }
+
 .accordion .accordion-item {
     border-bottom: 1px solid #e5e5e5;
 }
@@ -231,6 +235,7 @@ a {
     height: 2px;
     background: currentColor;
 }
+
 .accordion button .icon::after {
     display: block;
     position: absolute;
@@ -245,15 +250,18 @@ a {
 .accordion button[aria-expanded='true'] {
     color: #0098cf;
 }
+
 .accordion button[aria-expanded='true'] .icon::after {
     width: 0;
 }
+
 .accordion button[aria-expanded='true'] + .accordion-content {
     opacity: 1;
     max-height: 35em;
     transition: all 200ms linear;
     will-change: opacity, max-height;
 }
+
 .accordion .accordion-content {
     opacity: 0;
     max-height: 0;
@@ -262,31 +270,81 @@ a {
     will-change: opacity, max-height;
     padding: 0;
 }
+
 .accordion .accordion-content p {
     font-size: 18px;
     font-weight: 300;
     margin: 2em 0;
 }
 
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+
+td:first-child {
+    background:#242424;
+}
+
+.styled-table thead tr {
+    background-color: #242424;
+    color: #89a049;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #989898;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #242424;
+    color: #8a8a8a;
+}
+
+.styled-table tbody tr:nth-of-type(odd) {
+    background-color: #8a8a8a;
+    color: #242424;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #89a049;
+}
+
+.styled-table thead tr:last-of-type {
+    border-bottom: 1px solid #989898;
+}
 
 @media (max-width: 1000px) {
     .split-content {
         flex-direction: column;
     }
+
     .logos {
         flex-direction: column;
     }
+
     .logo {
         margin: 16px;
     }
 }
 
 section:nth-child(3n+0) .colored {
-    color:#e6204c;
+    color: #e6204c;
 }
+
 section:nth-child(3n+1) .colored {
-    color:#0098cf;
+    color: #0098cf;
 }
+
 section:nth-child(3n+2) .colored {
-    color:#89a049;
+    color: #89a049;
 }
