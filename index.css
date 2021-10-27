@@ -300,6 +300,7 @@ td:first-child {
 .styled-table th,
 .styled-table td {
     padding: 12px 15px;
+    height: 75px;
 }
 .styled-table tbody tr {
     border-bottom: 1px solid #989898;
