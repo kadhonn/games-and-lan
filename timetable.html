@@ -11,12 +11,20 @@
 <!--<header>-->
 
 <!--</header>   -->
+<section id="announcements">
+    <h1 class="colored center" style="font-size: 40px; text-align: center">Announcements</h1>
+</section>
+
+<section id="announcement-content">
+	<h3 class="center" style="text-align: center">Doors open at 17:00 for LAN guests and the general board game area opens at 18:00!
+</h3>
+</section>
+
 <section id="head">
-    <h1 class="colored center" style="font-size: 40px">TimetAble</h1>
+    <h1 class="colored center" style="font-size: 40px; text-align: center">TimetAble</h1>
 </section>
 <section id="friday">
-    <div>
-        <table class="styled-table">
+        <table class="styled-table" style="width: 100%">
             <thead>
             <tr>
                 <td class="colored">Friday</td>
@@ -48,7 +56,6 @@
             </tr>
             </tbody>
         </table>
-    </div>
 </section>
 <section id="saturday">
     <div>
@@ -75,14 +82,14 @@
             </tr>
             <tr>
                 <td><img class="center" src="assets/grandgarage.svg" height="35px"></td>
-                <td>13:00</td>
+                <td>early afternoon</td>
                 <td>Guided Grand Garage Tour</td>
                 <td>Meet at Check-In</td>
                 <td>Register at Check-In</td>
             </tr>
             <tr>
                 <td><img class="center" src="assets/grandgarage.svg" height="35px"></td>
-                <td>14:00</td>
+                <td>late afternoon</td>
                 <td>Guided Grand Garage Tour</td>
                 <td>Meet at Check-In</td>
                 <td>Register at Check-In</td>
@@ -105,7 +112,7 @@
             </tr>
             <tr>
                 <td><img class="center" src="assets/dice.svg" height="50px"></td>
-                <td>13:00</td>
+                <td>22:00</td>
                 <td>Dungeons & Dragons
                     <br/> <span class="smallerfont">for Beginners</span>
                 <td>Pen & Paper Area</td>
@@ -129,7 +136,11 @@
         info@linz.coderdojo.net
     </div>
 
-<script src="script.js"></script>
+<script>
+   setInterval(() => {
+		location.relaod();
+   }, 1000 * 60);
+</script>
 
 </body>
 </html>
